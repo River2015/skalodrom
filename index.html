@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <script>
+    // Маркер работающего javascript
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+
+
+  <title>belka</title>
+</head>
+
+<body>
+<header class="page-header">
+  <div class="page-header__contacts">
+    <div class="container">
+      <div class="contacts">
+          <p class="contacts__time time">24 часа</p>  
+          <p class="contacts__phone phone" id='up'>8(812)999-77-88</p>      
+          <p class="contacts__location location">Выборгское ш.,220</p>   
+          <button class="contacts__hamburger hamburger"></button> 
+          <button class="contacts__cross"></button> 
+      </div>
+    </div>
+  </div> 
+  <section class="rocks">
+    <div class="humburger-hide">
+      <nav class="humburger-menu">
+        <ul class="humburger-menu__list">
+          <li class="humburger-menu__item">
+            <a href="#trace" class="humburger-menu__link">Трассы</a>
+          </li>
+          <li class="humburger-menu__item">
+            <a href="#sale" class="humburger-menu__link">Акции</a>
+          </li>
+          <li class="humburger-menu__item">
+            <a href="#price" class="humburger-menu__link">Цены</a>
+          </li>
+          <li class="humburger-menu__item">
+            <a href="#comments" class="humburger-menu__link">Отзывы</a>
+          </li>
+          <li class="humburger-menu__item">
+            <a href="#contacts" class="humburger-menu__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="humburger__social social">
+        <li class="social__item">
+          <a href="https://twitter.com" class="social__link">
+            <i class="sprite twitter-humburger"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram-humburger"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk-humburger"></i>
+          </a>
+        </li>
+      </ul>
+    </div>    
+    <div class="rocks__container container">
+      <div class="rocks__wrapper-hide">
+        <div class="rocks__top-inner">  
+          <div class="rocks__logo logo">
+            <a href="#" class="logo__link"><img src="img/logo.png" alt="" class="logo__img">
+            </a>
+          </div>
+          <a href="#buy" class="rocks__order-btn btn btn-top">Купить билет</a>         
+          <nav class="rocks__menu main-menu">
+            <ul class="main-menu__list">
+              <li class="main-menu__item">
+                <a href="#trace" class="main-menu__link main-menu__link--active">Трассы</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="#sale" class="main-menu__link">Акции</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="#price" class="main-menu__link">Цены</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="#comments" class="main-menu__link">Отзывы</a>
+              </li>
+              <li class="main-menu__item">
+                <a href="#contacts" class="main-menu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h1 class="rocks__title title">скалодром</h1>
+        <div class="rocks__discription discription">
+        <p class="discription__slogan">Заберись на вершину, не уезжая в горы! </p>
+        <p class="discription__text discription__text--sm">Скалодром BELKA для всех, кто желает впервые попробовать себя в<br> скалолазонии, а так же для спротсменов разного уровня.<br> Включает всебя две детские трассы и 3 взрослые.<br> Скалолазы смогут найти подробную схему<br> всех подготовленных трасс, смотреть категорию сложности.</p>
+        <p class="discription__text discription__text--lg">Скалодром BELKA для всех, кто желает впервые попробовать<br> себя в скалолазонии, а так же для спротсменов разного уровня.<br> Включает всебя две детские трассы и 3 взрослые.<br> Скалолазы смогут найти подробную схему всех подготовленных<br> трасс, смотреть категорию сложности.</p>
+        </div>
+        <a href="#buy" class="rocks__order-btn btn btn-bottom">Купить билет</a>
+      </div>
+    </div>
+  </section>
+</header>
+  
+<section class="routes">
+  <div class="container">
+    <h1 class="title routes__title title--white" id='trace'>трассы</h1>
+     <div class="routes__inner">
+        <div class="ananas">
+        <div class="trace trace--first"> 
+          <div class="trace__header trace__header--transparent">
+            <h2 class="trace__title">Трасса # 1</h2>
+            <p class="trace__height">Высота 15 м.</p>
+            <p class="trace__age">Возраст 18+</p>
+          </div>
+        <div class="trace__wrap">
+          <img src="img/trace_1.jpg" alt="" class="trace__img">
+        </div>
+        <div class="trace__inner trace__inner--transparent">
+          <p class="trace__description trace__description--transparent">Трасса для опытных скалолазов. Требуется наличие хорошей физ. подготовки.</p>
+          </div>
+        </div>
+        <div class="trace trace--second">
+          <div class="trace__header">
+            <h2 class="trace__title">Трасса # 2</h2>
+            <p class="trace__height">Высота 4м.</p>
+            <p class="trace__age">Возраст 4+</p>
+          </div>
+          <img src="img/trace_2.jpg" alt="" class="trace__img">
+          <div class="trace__inner">
+            <p class="trace__description">Для людей с разной физ. подготовкой Различные зацепы и рельефы стены</p>
+          </div>
+        </div>
+        <div class="trace trace--third">
+          <div class="trace__header trace__header--transparent">
+            <h2 class="trace__title">Трасса # 3</h2>
+            <p class="trace__height">Высота 10м.</p>
+            <p class="trace__age">Возраст 13+</p>
+          </div>
+          <img src="img/trace_3.jpg" alt="" class="trace__img">
+          <div class="trace__inner trace__inner--transparent">
+            <p class="trace__description trace__description--transparent">Трасса подойдет как для профессионалов,так и для любителей. Необходима хорошая физ. подготовка.</p>
+          </div>
+        </div>
+        <div class="routes__trace trace trace--fourth">
+          <div class="trace__header">
+            <h2 class="trace__title">Трасса # 4</h2>
+            <p class="trace__height">Высота 3м.</p>
+            <p class="trace__age">Возраст 4+</p>
+          </div>
+          <img src="img/trace_4.jpg" alt="" class="trace__img">
+          <div class="trace__inner">
+            <p class="trace__description">Самая невысокая трасса. Специальные зацепы для детей.</p>
+          </div>
+        </div>
+        <div class="routes__trace trace trace--fifth">
+          <div class="trace__header trace__header--transparent">
+            <h2 class="trace__title">Трасса #5 </h2>
+            <p class="trace__height">Высота 8м.</p>
+            <p class="trace__age">Возраст 13+</p>
+          </div>
+          <img src="img/trace_5.jpg" alt="" class="trace__img">
+          <div class="trace__inner trace__inner--transparent">
+            <p class="trace__description trace__description--transparent">Средняя высота и сложность. Физ. подготовка не обязательна.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>  
+</section>
+
+<section class="sale">
+  <div class="container">
+    <h1 class="title title__sale" id='sale'>акции</h1>
+    <div class="item-sale item-sale--first">      
+      <picture>
+        <source srcset="img/sale_team_ls.jpg" media="(min-width: 1200px)">
+        <img src="img/sale_team_sm.jpg" alt="SM">
+      </picture>
+      <div class="sale-discription">
+        <p class="sale-discription__text">Компаниям от 5 чел.<br> скидка 10%</p>
+        <a href="#" class="sale-discription__hide"> Подробнее</a>
+      </div>      
+    </div>
+    <div class="item-sale">      
+      <picture>
+        <source srcset="img/sale_many_children_ls.jpg" media="(min-width: 1200px)">
+        <img src="img/sale_many_children_sm.jpg" alt="SM">
+      </picture>
+      <div class="sale-discription">
+        <p class="sale-discription__text">Многодетным семьям<br> скидка 20%</p>
+        <a href="#" class="sale-discription__hide"> Подробнее</a>
+      </div>      
+    </div>
+    <div class="item-sale">      
+      <picture>
+        <source srcset="img/sale_isic_ls.jpg" media="(min-width: 1200px)">
+        <img src="img/sale_isic_sm.jpg" alt="SM">
+      </picture>
+      <div class="sale-discription">
+        <p class="sale-discription__text">Студентам<br> по карте isic 20%</p>
+        <a href="#" class="sale-discription__hide"> Подробнее</a>
+      </div>      
+    </div>
+  </div>
+</section>
+<section class="advantages">
+  <div class="container">  
+    <div class="info-advantages">
+      <h1 class="title advantages__title title--white">у нас</h1>
+      <div class="info-advantages__inner">
+        <div class="item-info item-info--first">
+          <div class="item-info__picture item-info--clouth">            
+          </div>
+          <p class="item-info__text ">Альпинистское снаряжение и страховочные устройства французской компании Petzl</p>
+        </div>
+        <div class="item-info item-info--second">
+          <div class="item-info__picture item-info--marked">            
+          </div>
+          <p class="item-info__text">Понятная маркировка трасс (ламинированные таблички и зацепки определенного цвета для каждой трассы)</p>
+        </div>
+        <div class="item-info item-info--third">
+          <div class="item-info__picture item-info--helper">            
+          </div>
+          <p class="item-info__text"><span class="item-info__span--xs">У</span><span class="item-info__span--lg">На территории</span> скалодрома всегда находится инструктор, который готов ответить на любой Ваш вопрос!</p>
+        </div>
+      </div>
+    </div>
+   <div class="gallary-advantages">
+    <div class="container__gallary">
+     <div class="tree"><!-- <div class="gallary__inner"> -->
+      <div class="item-gallary">
+        <div class="item-dark test-popup-link" href="img/advantages_gallery_img1_lg.jpg"> 
+          <div class="item-gallary__loupe" ><div class="item-gallary__line"></div></div>
+          <a class= "test-popup-link" href="img/advantages_gallery_img1_lg.jpg"> 
+          </div>
+        <picture>
+          <source srcset="img/advantages_gallery_img1_lg.jpg" media="(min-width: 1200px)">
+          <source srcset="img/advantages_gallery_img1_sm.jpg" media="(min-width: 768px)">
+          <img src="img/advantages_gallery_img1_sm.jpg" alt="SM"  class="item-gallary__img">
+        </picture>
+          </a>
+      </div>
+      <div class="item-gallary">
+        <div class=" item-dark test-popup-link" href="img/advantages_gallery_img2_lg.jpg">        
+          <div class="item-gallary__loupe"><div class="item-gallary__line"></div></div>
+          <a class= "test-popup-link" href="img/advantages_gallery_img2_lg.jpg">
+          </div>
+        <picture>
+          <source srcset="img/advantages_gallery_img2_lg.jpg" media="(min-width: 1200px)">
+          <source srcset="img/advantages_gallery_img2_sm.jpg" media="(min-width: 768px)">          
+          <img src="img/advantages_gallery_img2_sm.jpg" alt="SM" class="item-gallary__img">
+        </picture>  
+          </a>              
+      </div>
+      <div class="item-gallary">
+       <div class=" item-dark test-popup-link" href="img/advantages_gallery_img3_lg.jpg">
+          <div class="item-gallary__loupe"><div class="item-gallary__line"></div></div>
+          <a class= "test-popup-link" href="img/advantages_gallery_img3_lg.jpg" >
+          </div>
+        <picture>
+          <source srcset="img/advantages_gallery_img3_lg.jpg" media="(min-width: 1200px)">
+          <source srcset="img/advantages_gallery_img3_sm.jpg" media="(min-width: 768px)">            
+          <img src="img/advantages_gallery_img3_sm.jpg" alt="SM" class="item-gallary__img">
+        </picture> 
+          </a>
+      </div>
+     </div>     
+    </div>
+   </div>  
+  </div>
+</section>
+
+<div class="wrap__price-comment">
+  <section class="price">
+    <div class="price__container">
+      <h1 class="title" id='price'>цены</h1>
+        <table class="table-price">
+          <tr class="table-price__row ">
+            <th class="table-price__header table-price__header--column table-price__header--transpar"> </th>
+            <th class="table-price__header table-price__header--column">детский <span class="table-price__age">от 4 лет</span></th>
+            <th class="table-price__header table-price__header--column"> взрослый/детский <span class="table-price__age"> от 7 лет</span></th>
+          </tr>
+          <tr class="table-price__row">
+            <td class="table-price__data table-price__data--background"></td>
+            <td class="table-price__data table-price__data--background" colspan="2">Прохождение препятствий парка <span class="table-price__time">3 часа</span></td>
+            <!--<td class="table-price__data table-price__data--background"></td>-->
+          </tr>
+          <tr class="table-price__row">
+            <th class="table-price__header table-price__header--row">все трассы веревочный парк + скалодром</th>
+            <td class="table-price__data table-price__data--price">2200 P
+            <div class="table-check-box"></div></td>
+            <td class="table-price__data table-price__data--price">2500 P
+            <div class="table-check-box"></div></td>
+          </tr>
+          <tr class="table-price__row">
+            <th class="table-price__header table-price__header--row">скалодром</th>
+            <td class="table-price__data table-price__data--price">1000 Р
+            <div class="table-check-box"></div></td>
+            <td class="table-price__data table-price__data--price">1300 Р
+            <div class="table-check-box"></div></td>
+          </tr>
+          <tr class="table-price__row">
+            <th class="table-price__header table-price__header--row"> веревочный парк</th>
+            <td class="table-price__data table-price__data--price">1200 P
+            <div class="table-check-box"></div></td>
+            <td class="table-price__data table-price__data--price">1500 P
+            <div class="table-check-box"></div></td>
+          </tr>
+          <tr class="table-price__row">
+            <td class="table-price__data table-price__data--transparent" colspan="3""></td>            
+          </tr>
+          <tr class="table-price__row">
+            <td class="table-price__data table-price__data--background"></td>
+            <td class="table-price__data table-price__data--background" colspan="2">Прохождение препятствий парка <span class="table-price__time">12 чаcов </span></td>           
+          </tr>
+          <tr class="table-price__row">
+            <th class="table-price__header table-price__header--row">все трассы веревочный парк + скалодром</th>
+            <td class="table-price__data table-price__data--price">5500 P
+            <div class="table-check-box"></div></td>
+            <td class="table-price__data table-price__data--price">6000 P
+            <div class="table-check-box"></div></td>
+          </tr>
+          <tr class="table-price__row">
+            <th class="table-price__header table-price__header--row">скалодром</th>
+            <td class="table-price__data table-price__data--price">3000 Р
+            <div class="table-check-box"></div></td>
+            <td class="table-price__data table-price__data--price">3500 Р
+            <div class="table-check-box"></div></td>
+          </tr>
+          <tr class="table-price__row">
+            <th class="table-price__header table-price__header--row"> веревочный парк</th>
+            <td class="table-price__data table-price__data--price">4000 P
+            <div class="table-check-box"></div></td>
+            <td class="table-price__data table-price__data--price">4500 P
+            <div class="table-check-box"></div></td>
+          </tr>
+          <tr class="table-price__row">            
+            <td class="table-price__data table-price__data--transparent" colspan="3">
+              <span class="table-price__addtime addtime"> каждый допольнительный час + 500 р </span>
+            </td>            
+          </tr>
+          <tr class="table-price__row">
+            <td class="table-price__data table-price__data--background">
+              <span class="table-price__operator operator">персональный оператор парка</span>
+            </td>
+            <td class="table-price__data table-price__data--background"></td>
+            <td class="table-price__data table-price__data--background">600 Р/час</td>
+          </tr> 
+        </table>
+
+        <div class="select"> 
+        <nav class="select-menu">
+  <ul class="select__list">
+    <li class="select__item select__item--row "> <p class="select__text select__text--first">Выберите возраст</p>
+      <ul class="select__list select__list--first">
+        <li class="select__item select__item--sub"><p class="select__text--sub">детский от 4 лет</p></li>
+        <li class="select__item select__item--sub"><p class="select__text--sub">взрослый детский от 7 лет</p></li>
+      </ul></li>
+    <li class="select__item select__item--row"><p class="select__text select__text--second">Выберите место</p>
+      <ul class="select__list select__list--second">
+      <li class="select__item select__item--sub"><p class="select__text--sub">все трассы веревочный парк + скалодром</p></li>
+      <li class="select__item select__item--sub"> <p class="select__text--sub">скалодром</p></li>
+        <li class="select__item select__item--sub"> <p class="select__text--sub">веревочный парк</p></li>
+      </ul></li>
+    <li class="select__item select__item--row"><p class="select__text select__text--third">Выберите длительность</p>
+      <ul class="select__list select__list--third">
+      <li class="select__item select__item--sub"> <p class="select__text--sub">прохождение парка за 3 часа</p></li>
+        <li class="select__item select__item--sub"> <p class="select__text--sub">прохождение парка за 12 часов</p></li>
+      </ul>
+</li>
+  </ul>
+</nav>
+        </div>
+          <div class="total-price">
+            <p class="total-price__text">Cтоимость абонемента</p>
+            <p class="total-price__text">0 Р</p>
+          </div>
+        </div>
+        <div class="addinfo price__addinfo">
+          <div class="ditails addinfo__ditails">
+            <p class="ditails__text">персональный оператор парка</p>
+            <p class="ditails__text"> каждый допольнительный час + 500 р </p>
+          </div>
+          <div class="addinfo__inner">
+            <!-- <form id="buy" action="" method="post"></form> -->
+            <a href="#buy" class="addinfo__order-btn btn-red">Купить билет</a>
+            <a href="#" class="addinfo__link">Техника безопасности (PDF)</a>
+          </div>
+        </div>
+  
+  </section>
+  <section class="comments">
+   <div class="container">    
+     <div class="container-comments">
+      <h1 class="title comments__title" id='comments'>отзывы</h1>
+      <div class="comment-inner">
+     <div class="apple">
+        <div class="item-comments">
+          <div class="comments-image-inner">
+            <img src="img/comments_alexei.jpg" alt="" class="comments-image-inner__img">
+          </div>
+          <p class="item-comments__name">Алексей</p>
+          <p class="item-comments__occupy">Скалолаз-любитель</p>
+          <ul class="item-comments__social social">
+            <li class="social__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram-comment"></i>
+          </a>
+        </li>
+            <li class="social__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk-comment"></i>
+          </a>
+        </li>
+          </ul>
+          <p class="item-comments__text">Интересная трасса вкусная еда и самые приветливые тренера!</p>
+        </div>
+        <div class=" item-comments">
+          <div class="comments-image-inner">
+            <img src="img/comments_maria.jpg" alt="" class="comments-image-inner__img">
+          </div>
+          <p class="item-comments__name">Мария.</p>
+          <p class="item-comments__occupy">Студентка.</p>
+          <ul class="item-comments__social social">
+            <li class="social__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram-comment"></i>
+          </a>
+        </li>
+            <li class="social__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk-comment"></i>
+          </a>
+        </li>
+          </ul>
+          <p class="item-comments__text">Лучший скалодром в городе!</p>
+        </div>
+        <div class="item-comments">
+          <div class="comments-image-inner">
+            <img src="img/comments_ekaterina.jpg" alt="" class="comments-image-inner__img">
+          </div>
+          <p class="item-comments__name">Екатерина.</p>
+          <p class="item-comments__occupy">Мать триох детей.</p>
+          <ul class="item-comments__social social">
+            <li class="social__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram-comment"></i>
+          </a>
+        </li>
+            <li class="social__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk-comment"></i>
+          </a>
+        </li>
+          </ul>
+          <p class="item-comments__text">Парк "BELKA" отличная альтернатива наскучившим походам в кино и кафе.</p>
+        </div>
+        <div class="item-comments item-comments--clon">
+          <div class="comments-image-inner">
+            <img src="img/comments_alexei.jpg" alt="" class="comments-image-inner__img">
+          </div>
+          <p class="item-comments__name">Алексей</p>
+          <p class="item-comments__occupy">Скалолаз-любитель</p>
+          <ul class="item-comments__social social">
+            <li class="social__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram-comment"></i>
+          </a>
+        </li>
+            <li class="social__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk-comment"></i>
+          </a>
+        </li>
+          </ul>
+          <p class="item-comments__text">Интересная трасса вкусная еда и самые приветливые тренера!</p>
+        </div>
+        <div class=" item-comments item-comments--clon">
+          <div class="comments-image-inner">
+            <img src="img/comments_maria.jpg" alt="" class="comments-image-inner__img">
+          </div>
+          <p class="item-comments__name">Мария.</p>
+          <p class="item-comments__occupy">Студентка.</p>
+          <ul class="item-comments__social social">
+            <li class="social__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram-comment"></i>
+          </a>
+        </li>
+            <li class="social__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk-comment"></i>
+          </a>
+        </li>
+          </ul>
+          <p class="item-comments__text">Лучший скалодром в городе!</p>
+        </div>
+        <div class=" item-comments item-comments--clon">
+          <div class="comments-image-inner">
+            <img src="img/comments_ekaterina.jpg" alt="" class="comments-image-inner__img">
+          </div>
+          <p class="item-comments__name">Екатерина.</p>
+          <p class="item-comments__occupy">Мать триох детей.</p>
+          <ul class="item-comments__social social">
+            <li class="social__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram-comment"></i>
+          </a>
+        </li>
+            <li class="social__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk-comment"></i>
+          </a>
+        </li>
+          </ul>
+          <p class="item-comments__text">Парк "BELKA" отличная альтернатива наскучившим походам в кино и кафе.</p>
+        </div>
+        </div>      
+      </div>
+    </div>
+    </div>
+    </div>
+   </section>
+  </div> 
+
+<footer class="page-footer">
+  <div class="page-footer__container">
+  <form  id="buy" action="" method="post"> </form>
+    <div class="page-footer__inner">
+      <div class="page-footer__contacts contacts">        
+        <div class="contacts__location contacts__location--footer"> 
+          <span class="location location--white">Выборгское ш.,220</span>      
+        </div>         
+        <div class="contacts__phone contacts__phone--footer">
+          <span class="phone phone--white">8(812)999-77-88</span>        
+        </div>
+      </div>
+      <nav class="page-footer__menu footer-menu">
+        <ul class="footer-menu__list">
+          <li class="footer-menu__item">
+            <a href="#trace" class="footer-menu__link">Трассы</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#sale" class="footer-menu__link">Акции</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#price" class="footer-menu__link">Цены</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#comments" class="footer-menu__link">Отзывы</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#contacts" class="footer-menu__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="page-footer__social social">
+        <li class="social__item page-footer__item">
+          <a href="https://twitter.com" class="social__link">
+            <i class="sprite twitter-xs"></i>
+            <i class="sprite twitter"></i>
+          </a>
+        </li><li class="social__item page-footer__item">
+          <a href="https://www.instagram.com" class="social__link">
+            <i class="sprite instagram"></i>
+            <i class="sprite instagram-xs"></i>
+          </a>
+        </li>
+        <li class="social__item page-footer__item">
+          <a href="https://vk.com" class="social__link">
+            <i class="sprite vk"></i>
+            <i class="sprite vk-xs"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="up">        
+        <a href="#up" class="up__btn">
+          <div class="row-up"></div>
+        </a>      
+      </div>
+    </div>     
+    <div class="map__wrapper">
+      <div id="map" class="map"></div>
+    </div>
+
+<script>
+      var mapPoints = [
+      [
+      'Точка на карте',
+      60.076842,
+      30.270962,
+      '<div class="some-class"><h2>Скалодром BELKA</h2><p>Выборгское ш.,222</p></div>'
+      ],
+      ];
+      var mapStyle = [{
+        featureType: 'all',
+        stylers: [{ saturation: -100 }]
+      }];
+      var mapInfoWindow = null;
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var center = {lat: 60.076842, lng: 30.270962};        
+        var map = new google.maps.Map(mapDiv, {
+          zoom: 13,
+          center: center,
+          disableDefaultUI: true,
+          styles: mapStyle
+        });       
+        setMapMarkers(map);       
+        mapInfoWindow = new google.maps.InfoWindow({
+          content: "loading...",
+          maxWidth: 200
+        });        
+        map.addListener('resize', function() {
+          map.panTo(center); // Отцентруем
+        });        
+        google.maps.event.addDomListener(window, 'resize', function(){
+          google.maps.event.trigger(map, 'resize'); 
+        });        
+      }     
+      function setMapMarkers(map) {       
+        var image = {
+          url: 'http://s1.iconbird.com/ico/2013/8/425/w128h12813771935056.png',         
+          size: new google.maps.Size(128, 128),
+          anchor: new google.maps.Point(64, 117) 
+        };       
+        for (var i = 0; i < mapPoints.length; i++) {         
+          var point = mapPoints[i];         
+          var marker = new google.maps.Marker({
+            position: {lat: point[1], lng: point[2]},
+            map: map,           
+            title: point[0],
+            html: point[3],
+          });          
+          google.maps.event.addListener(marker, 'click', function () {
+            mapInfoWindow.setContent(this.html);
+            mapInfoWindow.open(map, this);
+          });
+        }
+      }
+    </script>
+  </div>
+</footer>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGL9eUuOV_fbv6QvDqQm0RGU6xnhLGdWw&signed_in=true&callback=initMap"></script>
+<script src="js/script.min.js"></script>
+
+</body>
+</html>
+
+
+
+
