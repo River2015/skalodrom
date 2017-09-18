@@ -1,0 +1,10 @@
+.wrapper {
+	@media (min-width: $screen-xs) {
+		.wraper-xs {
+		display: block;
+		}
+		background-image: url(../img/rocks_background_xs.jpg);
+	height: 402px;
+	display: block;		
+	}
+}

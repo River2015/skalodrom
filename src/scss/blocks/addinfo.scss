@@ -1,0 +1,102 @@
+.addinfo {
+
+  .ditails {
+	  font-family: $font-family-os;
+    font-size: $font-size - 4px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 20px;
+    &__text {
+    	padding: 0 15px;
+      text-transform: uppercase;
+      margin: 3px;
+    }
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__order-btn {
+    margin: auto;
+    margin-bottom: 40px;
+    width: 170px;
+
+    }
+  &__link {
+       
+    width: 210px;   
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: $background-color-table-lg;
+    font-family: $font-family-pn;
+    font-size: $font-size + 2px;
+    }
+  @media (min-width: $screen-xs) {
+    position: absolute;
+    top: 300px;
+    left: 0%;
+    z-index: 5;
+    &__order-btn {
+      position: absolute;
+      left: 25%;
+      top:74px;
+    }
+    &__link {
+      position: absolute;
+      left: 22%;
+      top:114px;
+    }
+
+}
+
+  @media (min-width: $screen-sm) {
+      position: static;
+      .ditails {
+        display: none;
+      }  
+      &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 70px;
+        margin-top: 10px;
+        }
+    
+      &__order-btn {
+        position: static;
+        width: 190px;
+        margin-top: 50px;
+        margin-right: 35px;
+       // display: block;
+        text-align: center;
+
+      }
+      &__link {
+        //display: block;
+        //width: 35%;
+        margin-bottom: 0;
+        margin-top: 60px;
+        margin-left: 35px;
+        position: static;
+        }
+}
+@media (min-width: $screen-lg) {
+       .addinfo__order-btn {
+        margin-left: 0;
+        margin-right: 90px;
+       }
+       .addinfo__link {
+        margin-right: 0;
+        margin-left: 0; 
+       }
+  }
+}
+
+

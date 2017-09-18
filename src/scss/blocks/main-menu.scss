@@ -1,0 +1,25 @@
+.main-menu {
+	&__item {
+		display: inline-block;
+		padding: 0 20px;
+	}
+	&__link {
+		text-decoration: none;
+		color: $text-color;
+	}
+	&__link--active {
+		display: flex;
+		flex-direction: column;
+	}
+	&__link--active:after {
+		content: '';
+		display: block;
+		background: #000;
+		width: 28px;
+		height: 1px;
+		margin: auto;
+		padding: 0;
+		position: relative;
+		left: 5px;
+	}	
+}

@@ -1,0 +1,89 @@
+nav>.select__list, nav>.select__list .select__list {
+	list-style: none;
+	padding: 0;
+}
+.select-menu{
+	width: 100%;
+} 
+.select-menu>.select__list .select__list {
+	display: none;
+	position: absolute;	
+	left: 0%;
+	top: 100%;
+}
+.select__text {
+	text-align: center;
+	font-family: $font-family-os;
+	font-size: $font-size + 2px;
+	width: 90%;
+	text-align: center;
+}
+.select__text--first {
+	//padding-left: 25%;
+}
+
+.select__text--second {
+	//padding-left: 27%;
+}
+
+.select__text--third {
+	//padding-left: 17%;
+	
+}
+
+.select__list--first {
+	bottom: -121px;
+	z-index: 5;
+}
+.select__list--second {
+	bottom: -181px;
+	z-index: 5;
+}
+.select__list--third {
+	bottom: -121px;
+	z-index: 5;
+}
+.select__text--sub {
+	text-transform: uppercase; 
+  	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	color: $text-color-w;
+	font-family: $font-family-os;
+	font-size: $font-size + 2px;
+}
+.select__item--sub {  
+	width: 100vw;
+	height: 60px;
+	margin: 0; 
+  	background-color: $background-color-table;  
+}
+.select-menu>.select__list>.select__item {
+  	margin: 0;
+ 	border-top: 1px solid $text-color;
+  	display: inline-flex;
+    width: 100%;
+    position: relative;
+}
+.select-menu>.select__list>.select__item:last-child {
+	 border-bottom: 1px solid $text-color;
+}
+.select__item--row:after {
+	content:'';
+	background: url(../img/price_arrowleft.png) 0 0 no-repeat;
+	width: 14px;
+    height: 25px;margin-right: 20px;
+	padding: 0;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	border: none;
+	margin-top: 12px;
+}
+.select__item--row:hover:after {
+	background: url(../img/price_arrowdown.png) 0 0 no-repeat;
+	width: 34px;
+    height: 31px;
+}

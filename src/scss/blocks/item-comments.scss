@@ -1,0 +1,72 @@
+.item-comments {
+	 &__name {
+		text-align: center;
+		padding: 5px;
+		font-family: $font-family-os;
+		font-size: $font-size + 2px;
+		margin: 0;
+		color: $text-color-trace;
+	}
+	&__occupy {
+		text-align: center;
+		padding: 5px;
+		font-family: $font-family-os;
+		font-size: $font-size + 2px;
+		margin: 0;
+		color: $text-color-trace;
+	}
+	&__text {
+		text-align: left;
+		padding-left: 20px;
+		font-family: $font-family-os;
+		font-size: $font-size + 2px;
+		margin: 0;
+		color: $text-color-trace;
+		padding-bottom: 30px;
+	}
+	@media (min-width: $screen-xs) {
+		outline: none;
+		width: 200px;		
+		display: block;
+		margin: auto;
+		.comments-image-inner{
+			width: 160px;
+			height: 160px;
+			border-radius: 50%;
+			margin: auto;
+			&__img {
+				border-radius: 50%;}
+		}
+	}	
+	@media (min-width: $screen-sm) {
+		width: 250px;
+		display: inline-block;		
+	}
+	@media (min-width: $screen-lg) {
+		width: 250px;
+		margin: auto;
+		display: inline-block;
+		text-align: center;
+		border-radius: 50%;
+		padding: 70px;
+		padding-bottom: 0;		
+	}
+}
+	
+	
+	// @media (min-width: $screen-xs) {
+	// 	width: 70%;
+ //    	display: block;
+ //    	margin: auto;
+		
+	// }
+
+	// @media (min-width: $screen-sm) {
+	// 	width: 250px;
+		
+	// }
+
+	// @media (min-width: $screen-lg) {
+	// 	width: 250px
+	// 	}
+	

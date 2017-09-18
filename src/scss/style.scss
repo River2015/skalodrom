@@ -1,14 +1,50 @@
-// Это диспетчер подключений, тут не должно быть ничего, кроме импортов
-
-// Глобальные подключения
 @import 'variables.scss';
+
 @import 'global.scss';
 @import 'fonts.scss';
-
-// Это импорт файла с примесями для растровых спрайтов. Используете растровые спрайты — раскомментить,
-// посмотреть контент. Найти примеси, выводящие свойства спрайтов и вызвать эти примеси в нужных вам
-// местах. При «тупом» использовании — вызвать примесь, генерирующую все css-правила спрайта.
-// @import 'sprite.scss';
-
-// БЭМ-блоки. Один БЭМ-блок = 1 файл
+@import 'normalize.scss';
+@import 'sprite.scss';
+@include sprites($spritesheet-sprites);
+@import 'blocks/sprite.scss';
 @import 'blocks/page-header.scss';
+@import 'blocks/contacts.scss';
+@import 'blocks/time.scss';
+@import 'blocks/hamburger.scss';
+@import 'blocks/humburger-hide.scss';
+@import 'blocks/location.scss';
+@import 'blocks/phone.scss';
+@import 'blocks/main-menu.scss';
+@import 'blocks/btn.scss';
+@import 'blocks/title.scss';
+@import 'blocks/rocks.scss';
+@import 'blocks/routes.scss';
+@import 'blocks/trace.scss';
+@import 'blocks/item-sale.scss';
+@import 'blocks/sale.scss';
+@import 'blocks/item-info.scss';
+@import 'blocks/info-advantages.scss';
+@import 'blocks/gallary-advantages.scss';
+@import 'blocks/item-gallary.scss';
+@import 'blocks/wrap__price-comment.scss';
+@import 'blocks/price.scss';
+@import 'blocks/humburger-menu.scss';
+@import 'blocks/table.scss';
+@import 'blocks/select.scss';
+@import 'blocks/total-price.scss';
+@import 'blocks/addinfo.scss';
+@import 'blocks/btn-red.scss';
+@import 'blocks/comments.scss';
+@import 'blocks/price-link.scss';
+@import 'blocks/wrapper.scss';
+@import 'blocks/item-comments.scss';
+@import 'blocks/page-footer.scss';
+@import 'blocks/up.scss';
+
+@import 'blocks/slick-theme.scss';
+@import 'blocks/slick.scss';
+@import 'blocks/magnific-popup.scss';
+
+
+
+
+

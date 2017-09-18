@@ -1,0 +1,130 @@
+.rocks {
+	position: relative;
+  	background-position: bottom; 
+	background-repeat: no-repeat;
+	background-size: cover;	
+	width: 100%;
+
+	&__container {
+		display: block;
+	}
+	.discription {
+		font-family: $font-family-os;
+		font-size: $font-size + 4px;
+		color: $background-color-table-lg;
+		line-height: 1.7;
+		padding-left: 12px;
+	}
+
+	@media (min-width: $screen-xs) {
+		background-image: url(../img/rocks_background_xs.jpg);
+		min-height: 100vh;
+		
+		display: block;
+		&__wrapper-hide {
+			min-height: 397px;
+		}
+		&__top-inner {		
+			display: none;
+		}		
+		&__logo {
+			display: none;
+		}
+		&__menu {
+			display: none;
+		}
+		.discription {
+			width: 200px;
+			padding-bottom: 25px;
+			margin: 0;
+			font-size: $font-size + 4px;
+		}
+		.discription__text {
+			display: none;
+			margin: 0;
+		}		
+		&__title {
+			padding: 90px 0 55px 0;
+			margin-bottom: 0;		
+		}
+		&__order-btn {
+			margin-left: 12px;
+		}
+	}
+	@media (min-width: $screen-sm) {
+		background-image: url(../img/rocks_background_sm.jpg) ;
+		&__wrapper-hide {
+			min-height: 666px;
+		}
+		
+		&__top-inner {
+			display: flex;
+			justify-content: space-between;
+			}
+		&__logo {
+			display: flex;
+			padding-left: 12px;
+			padding-top: 6px;		
+			}
+		&__menu {
+			display: flex;				
+			}
+		&__title {
+
+			padding: 110px 0 110px 0;
+			}
+		.btn-top {
+			display: none;
+			}
+		.discription {
+			width: 75%;
+			margin-bottom: 40px;
+			font-size: $font-size + 2px;
+			}
+		.discription__slogan {
+			margin: 0;
+			}
+		.discription__text--sm {
+			display: block;
+			width: 100%;
+			margin-top: 4px;
+			}
+		}
+	@media (min-width: $screen-lg) {
+		background-image: url(../img/rocks_background_lg.jpg) ;
+		
+		&__top-inner {
+			display: flex;
+			justify-content: flex-srart;
+		}
+		&__logo {
+			display: flex;		
+		}
+		&__menu {
+			display: block;
+			margin-left: auto;
+		}
+		.btn-top {
+			display: flex;
+			width: 140px;
+    		height: 30px;
+    		margin-top: 15px;
+    		text-align: center;
+   	    	background-color: $background-color-rose;
+		}
+		.discription {
+			width: 50%;
+			font-size: $font-size + 4px;
+		}
+		.discription__text--lg {
+			display: block;
+			width: 100%;
+		}
+		.discription__text--sm {
+			display: none;			
+		}
+		.btn-bottom {
+			display: none;
+		}
+	}
+}

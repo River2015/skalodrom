@@ -1,0 +1,28 @@
+.routes {
+	position: relative;
+  	//background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	//min-height: calc( 100vh - 40px);
+	width: 100%;
+	margin-top: -20px;
+@media (min-width: $screen-xs) {
+	background-image: url(../img/routes_xs.jpg);
+	min-height: 667px;
+	display: block;
+	bottom: -20px;
+	//height: 100vh;
+	background: inear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 100%); 	
+}
+@media (min-width: $screen-sm) {
+	background-image: url(../img/routes_sm.jpg);
+	min-height: 951px;
+	display: block;
+}
+@media (min-width: $screen-lg) {
+	background-image: url(../img/routes.jpg);
+	min-height: 813px;
+	display: block;	
+}
+}

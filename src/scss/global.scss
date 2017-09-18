@@ -1,6 +1,23 @@
 body {
   min-width: 320px;
   margin: 0;
-  font-family: $font-family;
+  font-family: $font-family-pn;
   color: $text-color;
+}
+.container {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	//overflow: hidden;
+	@media (min-width: $screen-sm) {
+		width: 100%;
+	}
+	@media (min-width: $screen-lg) {
+		width: 1200px;
+
+	}
+}
+img {
+	width: 100%;
+	display: block;
 }

@@ -1,10 +1,34 @@
-$screen-xs:                   480px;
+$screen-xs:                   320px;
 $screen-sm:                   768px;
-$screen-md:                   992px;
+
 $screen-lg:                   1200px;
-$screen-xl:                   1920px;
+
 
 $text-color:                  #000;
+$text-color-w:                #fff;
+$text-color-trace-tr-h:		  #25313f;
+$text-color-trace-tr-d:	      #56626d;
+$text-color-trace:            #22313f; // текст скалодром трасса техника безопасности
+$text-color-hamburger:        #4c5865; // текст скрытый гамбургер
+$text-color-footer:           #cecfdc; // текст футер
 
-$font-family:                 'Open Sans_my', sans-serif;
+
+$background-color-table:      #22313f; // фон строк таблицы  и подвала
+$background-color-table-dt:   #626d79; // бордер ячеек таблицы при выделении
+$background-color-table-lg:   #55616d; // фон строк таблицы
+$background-color-rose:       #e9e9f1; // фон шапка и строки таблицы
+$background-color-violet:     #efeff4; // фон кнопка скалодром текст на карточках трассы текс на о нас
+$background-color-rose-td:    #f0f0f0; // фон шапка 
+$background-color-red:        #922626; // фон кнопки
+$background-color-comment:    #e5e4e5; // фон отзыв
+$background-color-arrows:     #800000; // фон стрелочки efeff4
+
+
 $font-size:                   14px;
+$font-family-os:              'OpenSan';
+$font-family-pnb: 	          'ProximaNovaBold';
+$font-family-pneb: 	          'ProximaNovaExraBold';
+$font-family-pnl: 	          'ProximaNovaLight';
+$font-family-pn: 	          'ProximaNovaRegular';
+$font-family-pnsb: 	          'ProximaNovaSemibold';
+$font-family-pnt: 	          'ProximaNovaThin';

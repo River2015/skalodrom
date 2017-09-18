@@ -90,7 +90,7 @@ gulp.task('img', function () {
 // ЗАДАЧА: Копирование шрифтов
 gulp.task('fonts', function () {
   return gulp.src([
-        dirs.source + '/fonts/*.{ttf,woff,woff2,eot,svg}',
+        dirs.source + '/fonts/*.{ttf,otf,woff,woff2,eot,svg}',
       ],
       {since: gulp.lastRun('fonts')}
     )
@@ -176,6 +176,9 @@ gulp.task('js', function () {
       // добавьте сюда пути к JS-файлам, которые нужно взять в обработку
       dirs.source + '/js/jquery-3.1.0.min.js',
       dirs.source + '/js/jquery-migrate-1.4.1.min.js',
+      dirs.source + '/js/jquery.magnific-popup.min.js',
+      dirs.source + '/js/slick.min.js',
+   
       dirs.source + '/js/script.js',
     ])
     .pipe(plumber({ errorHandler: onError }))             // не останавливаем автоматику при ошибках
