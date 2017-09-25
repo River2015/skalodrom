@@ -1,7 +1,7 @@
 
 //карусель блок трассы
 $(document).ready(function(){
-  $('.ananas').slick({
+  $('#ananas').slick({
    slidesToShow: 5,
    responsive: [
     {
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
   
 
-  $('.tree').slick({
+  $('#tree').slick({
     slidesToShow: 3,
       responsive: [
         {
@@ -45,7 +45,7 @@ $(document).ready(function(){
         ]
       });
 
-  $('.apple').slick({
+  $('#apple').slick({
     slidesToShow: 3,
     infinite: true,
     autoplay: true,
